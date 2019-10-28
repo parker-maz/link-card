@@ -28,7 +28,7 @@ body {
 .link-card h2 {
   text-align: left;
   margin: 0;
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
 }
 
 p {
@@ -39,10 +39,10 @@ p {
   display: flex;
   flex-wrap: wrap;
   list-style-type: none;
-  border-width: 2px 0 2px;
+  border-width: 2px 0;
   border-style: solid;
   border-color: inherit;
-  padding: 1rem 0 1rem;
+  padding: 1rem 0;
   font-size: .875rem;
 }
 
@@ -66,12 +66,12 @@ dd {
   border-color: #785439;
 }
 
-.link-card:hover >.btn {
+.link-card:hover > .btn {
   background-color: #512200;
 }
 
 .btn {
-  font-family: "Dosis", sans-serif;
+  font-family: 'Dosis', sans-serif;
   font-weight: bold;
   padding: .4em .6em;
   background-color: #785439;
