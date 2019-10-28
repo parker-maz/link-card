@@ -57,7 +57,21 @@ dd {
   margin: 0;
 }
 
-div:hover {
+.link-card:hover {
   background-color: #cabdb2;
   border-color: #785439;
+}
+
+.link-card:hover >.btn {
+  background-color: #512200;
+}
+
+.btn {
+  font-family: "Dosis", sans-serif;
+  font-size: 1.125rem;
+  padding: .4em .6em;
+  background-color: #785439;
+  color: #f0eee8;
+  border-radius: 8px;
+  display: inline-block;
 }
